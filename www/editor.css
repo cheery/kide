@@ -1,0 +1,54 @@
+body
+{
+}
+
+#major-flex
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar
+{
+    order: 1;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    overflow: auto;
+}
+
+#sidebar button
+{
+    text-align: left;
+}
+
+#buffer
+{
+    order: 2;
+    width: 540px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#filepath
+{
+    height: 1.3em;
+    background: #181818;
+    color: white;
+    min-width: 160px;
+    padding-left: 40px;
+}
+
+#editor
+{
+    min-width: 200px;
+    flex-grow: 1;
+}

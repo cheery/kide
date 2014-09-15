@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>KIDE</title>
+    <link rel="stylesheet" href="editor.css" />
+    <script src="/lib/coffee-script.js"></script>
+    <script src="/lib/ace/ace.js"></script>
+    <script src="/lib/ace/mode-python.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
-    
+    <div id="major-flex">
+        <div id="buffer">
+            <div id="filepath">main.py</div>
+            <div id="editor"></div>
+        </div>
+        <div id="sidebar">
+        </div>
+    </div>
 </body>
 </html>
