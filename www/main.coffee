@@ -4,7 +4,7 @@ window.addEventListener 'load', () ->
     editor.setTheme("ace/theme/monokai")
     editor.getSession().setMode("ace/mode/python")
 
-    socket = io.connect("http://localhost")
+    env.socket = socket = io.connect("//localhost")
     socket.on 'init', (data) ->
         editor.setValue(data)
     socket.on 'button', ({title, name}) ->

@@ -6,7 +6,7 @@
     env.editor = editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
     editor.getSession().setMode("ace/mode/python");
-    socket = io.connect("http://localhost");
+    env.socket = socket = io.connect("//localhost");
     socket.on('init', function(data) {
       return editor.setValue(data);
     });

@@ -1,7 +1,5 @@
 # KIDE
 
-There is a security question in this project, that I'm not sure how to answer into. Malicious users would have easy time getting control over the console if I don't answer it. Attacker could cheat the user to their own web page and retrieve whatever credentials required to use the console. Not sure how to set up encryption for such scheme correct.
-
 The project is taking baby steps. Lot of open source projects are published as soon as they are ready, which means before they're even useful for anything. KIDE is not an exception.
 
 This is a programming environment for python, running on an open source gaming console GCW-Zero. It is accessed from a web browser.
